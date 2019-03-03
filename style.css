@@ -1,0 +1,67 @@
+h1{
+	color :#ff3333;
+}
+
+.header{
+	background: #3399ff;
+	border-radius: 10px;
+	width : auto	;
+}
+
+button {
+	float: right;
+	/*align-items: left;*/
+	padding: 0;
+	border: none;
+	/*background: none;*/
+	background: #3399ff;
+	padding-right: 5%;	
+}
+
+button:hover {
+	float: right;
+	/*align-items: left;*/
+	padding: 0px;
+	text-decoration:underline;
+    cursor:pointer;
+	border: none;
+	/*background: none;*/
+	background: #ff6666	;
+	padding-right: 5%;	
+}
+
+.body {
+	padding: 100px;
+	margin: 70px;
+	width: 700px;
+	/*border-color: #668cff;*/
+	border : 1px solid #668cff;
+}
+
+a {
+	color: red;
+    text-decoration: none;
+}
+
+.book-section{
+	height: 20px;
+}
+
+.profile-link{
+	height: 30px;
+	width: 30px;
+	padding-top: 30px;
+	
+}
+
+.profile-ling-img{
+	height: 1px;
+	width: 1px;
+}
+.profile-pic {
+	height: 200px;
+	width: 180px;
+	float: right;
+	
+	padding: 70px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Akhil</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="node_modules/wow.js/css/libs/animate.css">
+  	<link rel="stylesheet" href="node_modules/wow.js/css/site.css">
+  	<style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+</head>
+	<body>
+		<div class = header>
+			<center><h1>Book's read by Me</h1></center>
+		</div>
+		
+		<button onclick="location.href='book.html'" type="button">Books</button>
+		<button onclick="location.href='index.html'" type="button">HOME</button>
+			<div class = header>
+				<p> .</p>
+				<!-- <button>HOME</button>
+				<button>ABOUT</button> -->
+			</div>			
+			<div>
+				<dl>
+					<dt><section class=book-section><a href="https://launchschool.com/books/command_line">Command Line</a></section></dt>
+					<dd>This book teaches some basics about the command line inter face</dd>
+					<dt><section class=book-section><a href="https://launchschool.com/books/git">Git Hub</a></section></dt>
+					<dd>From this book we can learn how to work with git and some of it's genral oprations</dd>
+					<dt><section class=book-section><a href="https://launchschool.com/books/http">HTTP</a></section></dt>
+					<dd>Form this book we can know some of the basics how web works and some basic knowledge about http protocol</dd>
+					<dt><section class=book-section><a href="https://launchschool.com/books/working_with_apis">Working with APIS</a></section></dt>
+					<dd>From this book we can learn how to create and interact with the APIS which are very helpfull to build an application now a days</dd>
+				</dl>
+			</div>
+			  <script src="node_modules/wow.js/dist/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );	
+    wow.init();
+    
+  </script>
+	</body>
+</html>
