@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7843c69d.css",
+    "main.js": "/static/js/main.ded44ca9.js",
+    "static/js/488.21a3b654.chunk.js": "/static/js/488.21a3b654.chunk.js",
+    "static/media/credly-logo.svg": "/static/media/credly-logo.719d8a508623b01e3736.svg",
+    "static/media/github-logo.svg": "/static/media/github-logo.f8b6ea81d7b0ef4992eb.svg",
+    "static/media/leetcode-logo.svg": "/static/media/leetcode-logo.15de0d323ceaf4464da9.svg",
+    "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.9e7241e99e8a00d6f0aa.svg",
+    "index.html": "/index.html",
+    "main.7843c69d.css.map": "/static/css/main.7843c69d.css.map",
+    "main.ded44ca9.js.map": "/static/js/main.ded44ca9.js.map",
+    "488.21a3b654.chunk.js.map": "/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7843c69d.css",
+    "static/js/main.ded44ca9.js"
+  ]
+}
