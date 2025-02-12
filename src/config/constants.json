@@ -1,0 +1,27 @@
+{
+    "name": "Akhil Pilli",
+    "scialProfiles": {
+        "linkedin": "https://www.linkedin.com/in/akhil-pilli/",
+        "github": "https://github.com/Akhilpilli",
+        "leetcode": "https://leetcode.com/u/akhilpilli/",
+        "credly": "https://www.credly.com/users/akhil-pilli.45b98d82"
+      },
+      
+    "skillList": {
+        "Languages": ["Java", "Python", "JavaScript", "SQL", "PL/SQL"],
+        "Web_Technologies": ["HTML", "XML", "JavaScript", "JSON", "YAML", "NodeJS", "jQuery", "ReactJS"],
+        "Java_Technologies": ["Spring boot", "AKKA", "Spring MVC", "Rest API Services", "Maven", "Servlets", "Junit"],
+        "ORM_Framework": ["Hibernate", "Django"],
+        "Frameworks": ["Kafka", "NodeJS", "ReactJS", "VueJS"],
+        "Amazon_Web_Services": ["EC2", "EKS", "lambda", "S3", "Elastic Beanstalk", "EventBridge", "RDS", "SQS", "SNS", "CloudWatch", "DynamoDB", "VPC", "API Gateway", "Step Functions", "CodePipeline", "CodeDeploy", "SAM", "CodeCommit", "CLI"],
+        "IDE_Tools": ["IntelliJ IDEA", "PyCharm", "Visual Studio Code", "Maven", "Postman", "SQL Developer", "Robo 3T"],
+        "Databases": ["PostgreSQL", "My SQL", "MongoDB", "Redis"],
+        "AI_Tools": ["Github Copilot", "ChatGPT"],
+        "Test_Frameworks": ["Junit", "Mockito", "SonarQube", "PMD", "Check Style"],
+        "Logging_And_MetricsTools": ["CloudWatch", "Splunk", "SLF4J"],
+        "CI_And_Scm_Tools": ["JIRA", "Jenkins", "Git", "Bitbucket", "GitLab", "Maven", "Docker"],
+        "Code_Quality_Tools": ["SonarQube", "PMD", "Check Style"],
+        "Operating_Systems": ["Windows Family", "UNIX", "Linux"]
+    },
+    "jobTitles": ["Full Stack Developer", "Backend Developer", "Java Full Stack Developer", "Cloud Engineer", "Microservices Architect", "Software Engineer", "AWS Certified Developer", "Enterprise Application Developer"]
+}

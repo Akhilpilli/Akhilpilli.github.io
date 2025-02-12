@@ -1,0 +1,21 @@
+.skill-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Space between SVG and text */
+    font-size: 16px; /* Adjust size as needed */
+    background: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+.skill-icon::before {
+    content: "";
+    display: inline-block;
+    width: 1em; /* Matches text size */
+    height: 1em; /* Matches text size */
+    background-image: url("../assets/java.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
