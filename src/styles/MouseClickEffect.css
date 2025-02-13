@@ -1,8 +1,8 @@
 /* Click ripple effect */
 .ripple {
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 0.625rem;
+    height: 0.625rem;
     background: rgba(221, 187, 68, 1);
     border-radius: 50%;
     transform: scale(1);

@@ -1,3 +1,14 @@
+@media (max-width: 600px) {
+    .about-details {
+        .about-description {
+            /* width: 100vw; */
+            .self-description {
+                width: 90% !important;
+            }
+        }
+    }
+}
+
 .about {
     
     color: var(--text-color-dark);
@@ -12,26 +23,26 @@
             padding: 2rem;
 
             .self-description {
-                text-align: left;
                 width: 60%;
-                margin: 1px;
+                text-align: left;
+                margin: 0.0625rem;
                 color: var(--text-color-dark);
             }
             .name-role {
                 display: flex;
-                h1{
-                    margin: 1px;
+                h1 {
+                    margin: 0.0625rem;
                 }
             }
             .social-profile {
-                margin-top: 5px;
+                margin-top: 0.3125rem;
                 display: flex;
-                gap: 20px;
+                gap: 1.25rem;
 
                 .profile-link {
                     display: block;
-                    width: 30px; /* Adjust size of the logo */
-                    height: 30px; /* Adjust size of the logo */
+                    width: 1.875rem; /* Adjust size of the logo */
+                    height: 1.875rem; /* Adjust size of the logo */
                     overflow: hidden; /* Hide any overflow from the image */
                 }
                 .logo {
@@ -60,24 +71,37 @@
                     -webkit-mask-image: url('../assets/github-logo.svg');
                     mask-image: url('../assets/github-logo.svg');
                 }
-                
                 .logo.leetcode {
                     -webkit-mask-image: url('../assets/leetcode-logo.svg');
                     mask-image: url('../assets/leetcode-logo.svg');
                 }
-                
                 .logo.credly {
                     -webkit-mask-image: url('../assets/credly-logo.svg');
                     mask-image: url('../assets/credly-logo.svg');
                 }
+                .logo.mail {
+                    -webkit-mask-image: url('../assets/mail-logo.svg');
+                    mask-image: url('../assets/mail-logo.svg');
+                }
+                .logo.whatsapp {
+                    -webkit-mask-image: url('../assets/whatsapp-logo.svg');
+                    mask-image: url('../assets/whatsapp-logo.svg');
+                }
             }
+        }
+
+        .react-tooltip {
+            background-color: var(--background-color);
+            filter: brightness(2);
+            color: var(--secondary-color);
+            text-transform: capitalize;
         }
 
         .about-image {
             width: 40%;
             height: max-content;       
-            border-top-left-radius: 100px;
-            border-bottom-left-radius: 100px;
+            border-top-left-radius: 6.25rem;
+            border-bottom-left-radius: 6.25rem;
             overflow: hidden;
 
             background-color: var(--secondary-color);
@@ -92,30 +116,5 @@
     .job-title {
         color: var(--secondary-color);
     }
-    .skills-title {
-        text-align: center;
-        color: var(--secondary-color);
-        font-size: 32px;
-        margin-top: 20px;
-    }
-    .skills {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 25px 100px;
-        text-align: center;
-        justify-content: center;
-
-        .skill-section:hover {
-            color: var(--secondary-color);
-        }
-
-        .skill-item {
-            margin: 5px;
-        }
-
-        h3 {
-            font-size: 1.8em;
-            margin: 0px;
-        }
-    }
+    
 }

@@ -1,0 +1,31 @@
+.skills-title {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top: 1.25rem;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1.5625rem 6.25rem; */
+    gap: 1rem 3rem;
+    text-align: center;
+    justify-content: center;
+
+    
+
+    .skill-item {
+        margin: 0.3125rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        margin: 0rem;
+    }
+
+    .skill-section:hover {
+
+        .skill-list {
+            color: var(--secondary-color);
+        }
+    }
+}

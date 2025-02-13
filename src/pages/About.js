@@ -1,5 +1,7 @@
 import config from "../config/constants.json";
 import TitleChanger from "../components/TitleChanger";
+import Skills from "../components/Skills";
+import { Tooltip } from 'react-tooltip';
 import "../styles/About.css";
 
 function About() {
@@ -23,27 +25,15 @@ function About() {
                     target="_blank" 
                     rel="noopener noreferrer"
                     className={`profile-link ${key}`}
+                    data-tooltip-id={`tooltip-${key}`}
                   >
                     <div className={`logo ${key}`}></div>
+                    <Tooltip id={`tooltip-${key}`} place="bottom" content={key} />
                   </a>
                 ))}
               </div>
             </div>
-            
-            <h1 className="skills-title">SKILLS</h1>
-            <div className="skills">
-                {Object.keys(skillList).map((key, index) => (
-                  <div key={index} className={`skill-section ${key}`}>
-                      <h3>{key.replace(/_/g, ' ').trim()}</h3>
-                      <div>
-                      {skillList[key].map((skill, skillIndex) => (
-                          // <SkillItem key={skillIndex} skill={skill} />
-                          <span key={skillIndex} className="skill-item">{skill}</span>
-                      ))}
-                      </div>
-                  </div>
-                ))}
-              </div>
+            <Skills skills={skillList}/>
           </div>
 
       </div>
