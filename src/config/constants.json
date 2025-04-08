@@ -8,7 +8,6 @@
         "mail": "mailto:akhilpilli3198@gmail.com",
         "whatsapp": "https://wa.me/19728320159?text=Hello%20Akhil!"
       },
-      
     "skillList": {
         "Languages": ["Java", "Python", "JavaScript", "SQL", "PL/SQL"],
         "Web_Technologies": ["HTML", "XML", "JavaScript", "JSON", "YAML", "NodeJS", "jQuery", "ReactJS"],
@@ -79,5 +78,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "contactUs": {
+        "service_id": "service_emwc4ef",
+        "template_id": "template_skj7jch",
+        "public_key": "K3cKSJpbIIfTTVoL_"
+    }
 }

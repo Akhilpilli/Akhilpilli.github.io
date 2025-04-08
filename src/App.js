@@ -2,6 +2,7 @@ import React, { useEffect }  from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import ProfessionalTimeline from "./components/ProfessionalTimeline";
 import MouseClickEffect from "./components/MouseClickEffect";
 
@@ -31,7 +32,9 @@ const App = () => {
       <MouseClickEffect />
       <section id="about"><About /></section>
       <Navbar />
-      <ProfessionalTimeline />
+      <section id="experience"><ProfessionalTimeline /></section>
+      <section id="contact"><Contact /></section>
+
     </Router>
   );
 };
