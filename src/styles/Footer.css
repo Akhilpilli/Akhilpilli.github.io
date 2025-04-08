@@ -1,10 +1,6 @@
 .footer {
-    text-align: center;
-    padding: 0.625rem;
-    background-color: #333;
-    color: white;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-  }
-  
+  text-align: center;
+  padding: 0.625rem;
+  background-color: #333;
+  color: white;
+}
