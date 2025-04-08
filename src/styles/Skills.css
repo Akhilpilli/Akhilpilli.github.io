@@ -28,7 +28,7 @@
 }
 
 .skill-section {
-    background-color: #0f0f0f;
+    background-color: var(--background-color);
     padding: 1.25rem;
     border-radius: 0.75rem;
     border: 1px solid #333;

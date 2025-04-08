@@ -22,7 +22,6 @@
       "ReactJS",
       "VueJS"
     ],
-
     "Java_Technologies": [
       "Spring Boot",
       "AKKA",
@@ -32,11 +31,8 @@
       "Servlets",
       "JUnit"
     ],
-
     "ORM_Framework": ["Hibernate", "Django"],
-
     "Frameworks": ["Kafka", "NodeJS", "ReactJS", "VueJS"],
-
     "Amazon_Web_Services": [
       "EC2",
       "Lambda",
@@ -51,7 +47,6 @@
       "CI/CD",
       "CLI"
     ],
-
     "IDE_Tools": [
       "IntelliJ IDEA",
       "PyCharm",
@@ -61,15 +56,10 @@
       "SQL Developer",
       "Robo 3T"
     ],
-
     "Databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
-
     "AI_Tools": ["GitHub Copilot", "ChatGPT"],
-
     "Test_Frameworks": ["JUnit", "Mockito"],
-
     "Logging_And_MetricsTools": ["CloudWatch", "Splunk", "SLF4J"],
-
     "CI_And_Scm_Tools": [
       "JIRA",
       "Jenkins",
@@ -79,7 +69,6 @@
       "Docker"
     ],
     "Code_Quality_Tools": ["SonarQube", "PMD", "CheckStyle"],
-
     "Operating_Systems": ["Windows Family", "UNIX", "Linux"]
   },
   "jobTitles": [
@@ -113,15 +102,6 @@
             "Created comprehensive API specs with Swagger, mentored junior developers, and improved test reliability using Mockito for complex dependency testing."
           ]
         }
-<<<<<<< Updated upstream
-    ],
-    "contactUs": {
-        "service_id": "service_emwc4ef",
-        "template_id": "template_skj7jch",
-        "public_key": "K3cKSJpbIIfTTVoL_"
-    }
-}
-=======
       ]
     },
     {
@@ -154,6 +134,10 @@
         }
       ]
     }
-  ]
+  ],
+  "contactUs": {
+    "service_id": "service_emwc4ef",
+    "template_id": "template_skj7jch",
+    "public_key": "K3cKSJpbIIfTTVoL_"
+  }
 }
->>>>>>> Stashed changes
