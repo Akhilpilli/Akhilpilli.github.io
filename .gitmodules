@@ -1,0 +1,4 @@
+
+[submodule "src/components/SharedPortfolio"]
+	path = src/components/SharedPortfolio
+	url = https://github.com/Akhilpilli/shared-portifolio
