@@ -1,50 +1,15 @@
-import React, { useEffect } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import ProfessionalTimeline from "./components/ProfessionalTimeline";
-import MouseClickEffect from "./components/MouseClickEffect";
+import React from 'react';
+import './App.css';
 
-import "./App.css";
-import Footer from "./components/Footer";
+import SharedPortfolioApp from './components/SharedPortfolio/src/App'; // Adjust path if needed
 
-const App = () => {
-  useEffect(() => {
-    const handleScroll = () => {
-      const navbar = document.getElementById("navbar");
-      const fullscreenDivHeight =
-        document.querySelector(".about-description").offsetHeight;
-
-      if (window.scrollY > fullscreenDivHeight) {
-        navbar.style.display = "flex"; // Show the navbar when scrolled beyond the fullscreen div
-      } else {
-        navbar.style.display = "none"; // Hide the navbar when within the fullscreen div
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll); // Cleanup event listener on unmount
-    };
-  }, []);
+function App() {
   return (
-    <Router>
-      <MouseClickEffect />
-      <section id="about">
-        <About />
-      </section>
-      <Navbar />
-      <section id="experience">
-        <ProfessionalTimeline />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
-      <Footer />
-    </Router>
+    <div className="App">
+      {/* Render the Shared Portfolio App component */}
+      <SharedPortfolioApp />
+    </div>
   );
-};
+}
 
 export default App;
