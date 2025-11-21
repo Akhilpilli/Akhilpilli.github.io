@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ba78e9e.css",
-    "main.js": "/static/js/main.c084fd65.js",
+    "main.css": "/static/css/main.890cbb35.css",
+    "main.js": "/static/js/main.309572ee.js",
     "static/js/488.21a3b654.chunk.js": "/static/js/488.21a3b654.chunk.js",
     "static/media/github-logo.svg": "/static/media/github-logo.f67867dc56c612e15dc2.svg",
     "static/media/whatsapp-logo.svg": "/static/media/whatsapp-logo.47a23da19f804de4da7f.svg",
@@ -10,12 +10,12 @@
     "static/media/credly-logo.svg": "/static/media/credly-logo.bd1a54e3488929b5e272.svg",
     "index.html": "/index.html",
     "static/media/mail-logo.svg": "/static/media/mail-logo.99d4c3af48f7d47e3a16.svg",
-    "main.6ba78e9e.css.map": "/static/css/main.6ba78e9e.css.map",
-    "main.c084fd65.js.map": "/static/js/main.c084fd65.js.map",
+    "main.890cbb35.css.map": "/static/css/main.890cbb35.css.map",
+    "main.309572ee.js.map": "/static/js/main.309572ee.js.map",
     "488.21a3b654.chunk.js.map": "/static/js/488.21a3b654.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ba78e9e.css",
-    "static/js/main.c084fd65.js"
+    "static/css/main.890cbb35.css",
+    "static/js/main.309572ee.js"
   ]
 }
