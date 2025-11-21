@@ -9,6 +9,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: github-pages
 
     steps:
       # Step 1: Checkout code with submodules
@@ -37,10 +38,7 @@ jobs:
 
       # Step 5: Build the React app
       - name: Build React app
-              env:
-          CI: false
         run: npm run build
-
       # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
