@@ -1,10 +1,14 @@
 name: Build and Deploy React App with SharedPortfolio
 
+permissions:
+  contents: write
+  pages: write
+
 on:
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch:
   push:
     branches:
-      - main # Trigger on push to main branch
+      - main
 
 jobs:
   build-and-deploy:
@@ -12,37 +16,33 @@ jobs:
     environment: github-pages
 
     steps:
-      # Step 1: Checkout code with submodules
       - name: Checkout repository with submodules
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+          persist-credentials: true
 
-      # Step 2: Update submodules to latest remote commit
       - name: Update SharedPortfolio submodule to latest
         run: |
           git submodule update --remote --merge
           git submodule status
 
-      # Step 3: Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: 'npm'
 
-      # Step 4: Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # Step 5: Build the React app
       - name: Build React app
         env:
           CI: false
           REACT_APP_PORTFOLIO_DATA: ${{ secrets.REACT_APP_PORTFOLIO_DATA }}
         run: npm run build
-      # Step 6: Deploy to GitHub Pages
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
