@@ -40,7 +40,7 @@ jobs:
       - name: Build React app
         env:
           CI: false
-          REACT_APP_PORTFOLIO_DATA: ${{ secrets.REACT_APP_PORTFOLIO_DATA }}
+          REACT_APP_PORTFOLIO_DATA: ${{ vars.REACT_APP_PORTFOLIO_DATA || 'default_value' }}
         run: npm run build
 
       - name: Deploy to GitHub Pages
