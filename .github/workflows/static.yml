@@ -41,7 +41,6 @@ jobs:
         env:
           CI: false
           REACT_APP_PORTFOLIO_DATA: ${{ vars.REACT_APP_PORTFOLIO_DATA }}
-          echo "Using REACT_APP_PORTFOLIO_DATA: $REACT_APP_PORTFOLIO_DATA"
         run: npm run build
 
       - name: Deploy to GitHub Pages
